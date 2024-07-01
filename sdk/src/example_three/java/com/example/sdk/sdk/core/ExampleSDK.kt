@@ -37,7 +37,7 @@ class ExampleSDK(context: Context) : ISDK {
     }
 
     override fun isAuthorized(): Boolean {
-        return true // TODO: false to skip auth
+        return true
     }
 
     override fun onDestroy() {

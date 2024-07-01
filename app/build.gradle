@@ -37,6 +37,10 @@ android {
             dimension "app"
             applicationId "com.example.app_two"
         }
+        example_three {
+            dimension "app"
+            applicationId "com.example.app_three"
+        }
     }
 
     compileOptions {
